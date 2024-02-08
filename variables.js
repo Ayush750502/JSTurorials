@@ -17,4 +17,4 @@ Prefered not to used
 let accState;// = undefined
 
 console.table([accId , accMail , accPass , accCity , accState]);
-//              0       1           2        3          4
+//               0        1          2         3         4
