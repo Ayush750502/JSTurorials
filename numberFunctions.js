@@ -6,7 +6,7 @@ console.log(numOne.toPrecision(4));//can be used for any value
 
 const numTwo = 1000000;
 
-console.log(numTwo.toLocaleString())
+console.log(numTwo.toLocaleString())//shows number with comas 
 console.log(numTwo.toLocaleString('en-IN'))
 
 
