@@ -10,7 +10,7 @@ console.log(numTwo.toLocaleString())//shows number with comas : 1,000,000
 console.log(numTwo.toLocaleString('en-IN'))//10,00,000 // Indian fashion
 
 
-//--------------------Some Maths functionallity------------------------
+//--------------------Some Maths functionallity------------------------//
 
 console.log(Math);//Object
 console.log(Math.abs(-4));//absolute value : 4
