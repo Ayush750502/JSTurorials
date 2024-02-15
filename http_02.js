@@ -17,5 +17,9 @@ const server = http.createServer((req , res) =>{//Calling New Server
 });
 
 server.listen(port , () => {
-    console.log(`Server is running at -\n\t'http://localhost:${port}'\n \t\tor\n\t'http://${hostname}:${port}' `);
+    console.log(`Server is running at -
+    
+    'http://localhost:${port}'
+                 or
+    'http://${hostname}:${port}' `);
 });
