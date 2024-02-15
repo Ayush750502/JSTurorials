@@ -1,7 +1,7 @@
 const http = require('http');
 const url = require('url');
 const fs = require('fs');
-const dt = require('./sampleModule');
+const dt = require('./selfModules/sampleModule');
 var inhtml;
 var name = '';
 fs.readFile('testCase.html', 'utf8', (err, data) => {
