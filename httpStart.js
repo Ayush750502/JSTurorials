@@ -25,6 +25,12 @@ http.createServer(function (req, res) {
   res.write(inhtml);
   res.end(`<h3>Thanks for visiting!${name}</h3>
   <p>Date:${dt.myDateTime().toLocaleDateString()}</p>`);
-}).listen(8080);
+}).listen(8080 , function(){
+  console.log(`Server is running at -
+
+    'http://localhost:8080'
+                 or
+    'http://127.0.0.1:8080' `);
+});
 
 
