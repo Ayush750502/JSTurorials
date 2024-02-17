@@ -49,3 +49,34 @@ function sayHello(name = "Guest"){//setting up a default value
 
 console.log(sayHello());//->undefined
 console.log(sayHello('Ayush'));//->undefined
+
+
+//--------------------(Functions Part 2)------------------//
+
+function  calPrice(val1 , val2 ,...num1){
+    return num1;
+}
+
+console.log(calPrice(200 , 300 , 500 , 5000));//Gives an array
+
+const user = {
+    name : "Ayush",
+    program : "B.Tech CSE",
+    setion : "2021-25"
+};
+
+function manageUser(anyobject){
+    return `My name is ${anyobject.name} and I am currently pursuing ${anyobject.program}`;
+}
+
+console.log(manageUser(user));
+console.log(manageUser({
+    name : "Ayush",
+    program : "B.Tech CSE"
+}));
+
+const arr = [200,300,400];
+function price(getArray){
+    return `Price: ${getArray[1]}`;
+}
+console.log(price(arr));
